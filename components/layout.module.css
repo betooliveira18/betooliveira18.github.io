@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 36rem;
+  padding: 0 1rem;
+  margin: 8rem auto 6rem;
+}
+
+.title {
+  margin-left: 10px;
+  font-weight: 700;
+  display: inline-block;
+  color: var(--white);
+  font-size: 20px;
+  cursor: pointer;
+  -webkit-transition: none;
+  transition: none;
+}
+
+.footer {
+  background: var(--black);
+  padding: 60px 0;
+  text-align: center;
+  font-size: 1.3em;
+  margin: 0;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.menu_item {
+  color: var(--white);
+  font-size: 1.2rem;
+  font-weight: 400;
+  border-bottom: 2px solid transparent;
+  margin-left: 24px;
+}
+
+.backToHome {
+  margin: 3rem 0 0;
+}

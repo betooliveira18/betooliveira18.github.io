@@ -1,0 +1,31 @@
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+.headerTitle {
+  color: var(--white);
+  margin-left: 10px;
+  font-weight: 700;
+  display: inline-block;
+}
+
+.navbar {
+  background: var(--black);
+  height: 50px;
+  padding: 1.8rem 0;
+  display: flex;
+  -webkit-box-shadow: 0 5px 10px 0 rgb(0 0 0 / 15%);
+  box-shadow: 0 5px 10px 0 rgb(0 0 0 / 15%);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: var(--spacing-6);
+}

@@ -1,0 +1,106 @@
+.grid {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.containerXl {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.green ::selection {
+  background: var(--green);
+  color: var(--black);
+}
+
+.heading2Xl {
+  font-size: var(--font-4xl);
+  line-height: var(--line-height-lg);
+  font-weight: 800;
+  margin: var(--spacing-sm) 0;
+}
+
+.headingXl {
+  font-size: var(--font-3xl);
+  line-height: var(--line-height-md);
+  font-weight: 800;
+  margin: var(--spacing-sm) 0;
+}
+
+.headingLg {
+  font-size: var(--font-2xl);
+  line-height: var(--line-height-sm);
+  font-weight: 800;
+  margin: var(--spacing-sm) 0;
+}
+
+.headingMd {
+  font-size: var(--font-lg);
+  line-height: var(--line-height-sm);
+}
+
+.borderCircle {
+  border-radius: 9999px;
+}
+
+.colorInherit {
+  color: inherit;
+}
+
+.padding1px {
+  padding-top: 1px;
+}
+
+.listInline {
+  display: flex;
+  list-style: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.listItem {
+  margin: 0 0 var(--spacing-5);
+}
+
+.colorlightText {
+  color: var(--blackTernary);
+}
+
+.colorGreenText {
+  color: var(--green);
+}
+
+.colorBlackText {
+  color: var(--black);
+}
+
+.btn {
+  background-color: var(--white);
+  margin: auto 0.6rem auto 2rem;
+  font-weight: 500;
+  text-align: center;
+  border-radius: 4px;
+  padding: 8px 14px;
+  border: 0;
+  display: inline-block;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+  color: var(--black);
+}
+
+.btn:hover {
+  background-color: var(--greenSecondary);
+  text-decoration: none;
+  color: var(--black);
+}
+
+.btnDownload {
+  transition: all 0.3s ease-in-out;
+  background: var(--green);
+}

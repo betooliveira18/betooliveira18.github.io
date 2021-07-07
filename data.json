@@ -1,0 +1,105 @@
+{
+  "header": {
+    "background-image": "",
+    "title": "Ediberto B.O",
+    "menu": [
+      { "name": "Blog", "link": "/posts" },
+      { "name": "Portifolio", "link": "/portfolio" },
+      { "name": "Sobre", "link": "/about" },
+      { "name": "Contato", "link": "/contact" }
+    ]
+  },
+  "presentation": {
+    "title": "Olá, eu me chamo Ediberto",
+    "subtitle": "Sou um Desenvolvedor web.",
+    "link": [
+      { "text": "Você pode saber mais ", "key": "sobre mim" },
+      { "text": "Tem interesse e quer entra em ", "key": "contato" }
+    ],
+    "profile-image": "https://avatars.githubusercontent.com/u/48109015?v=4"
+  },
+  "about": {
+    "title": "Um entusiasta da tecnologia.",
+    "description": "Eu tive contato tecnologia desde criança, quando ganhei meu PC com um monitor de tubo e uma caixa de disquetes. Foi bons tempos de internet discada nas madrugadas. Decidi estudar Logística mas pelo rumo que a vida tomou. Eu trabalhava na área, então era combinar o útil com o agradável. Mas meu hobby era programar e automatizar planilhas do Excel. A sensação de vê-lo funcionando depois de muitas horas de raciocínio lógico e pesquisa na documentação, não tinha preço. Sou apaixonado por desenvolvimento web tanto no front-end quanto no back-end. Os frameworks com os quais me identifico são o framework Spring de Java e as bibliotecas JavaScript React, Redux e seu ecossistema. mas eu estudo Vue e Angolar porque no final todos compilam para JS. O mesmo gancho para Styled Components vs SASS, tudo se transforma em CSS. Então, minha opinião sobre isso tudo. 'Depende do contexto e da força de trabalho do projeto.' Detalhe sobre mim, aprender é meu ponto forte. Meu tempo livre gosto de caminhar, ir à praia principalmente para sentir a energia da natureza. Tenho paixão por séries e filmes.",
+    "profile_image": "https://media-exp3.licdn.com/dms/image/C4D03AQEHzDdm-itFLQ/profile-displayphoto-shrink_800_800/0/1607902028745?e=1631145600&v=beta&t=ayOb-9QLRSVJDBW3rJdjL-LEEokD-DMiUZ4FHqlKe8Q"
+  },
+  "map": {
+    "posts": "Postagens",
+    "new_posts": "Novas postagens"
+  },
+  "technologies": {
+    "languages": ["ECMAScript", "Java", "HTML", "CSS", "SQL ", "noSQL"],
+    "frameworks&libs": [
+      "React",
+      "Redux",
+      "Node.js",
+      "Next.js",
+      "Styled Components",
+      "Bootstrap",
+      "Angular.js",
+      "Vue.js",
+      "RTL",
+      "Jest",
+      "Spring Framework",
+      "Hibernate",
+      "JPA"
+    ],
+    "tools": ["Docker", "TypeScript", "SASS", "Git", "GitHub"]
+  },
+  "portfolio": {
+    "frontend": [
+      {
+        "title": "Clone-Discord-VueJS",
+        "description": "Meu primeiro contato com o Framework Vuejs. O original é feito em ReactJS pelo instrutor da Rockset Maik Brito",
+        "image": "",
+        "link": "https://edibertooliveira.github.io/Clone-Discord-VueJS/",
+        "datatime": "19 Aug 2020"
+      },
+      {
+        "title": "",
+        "description": "",
+        "image": "",
+        "link": "",
+        "datatime": "19 Aug 2020"
+      }
+    ],
+    "backend": [
+      { "title": "blog-api", "description": "", "link": "", "datatime": "" },
+      { "title": "cookmaster", "description": "", "link": "", "datatime": "" },
+      { "title": "Webchat", "description": "", "link": "", "datatime": "" }
+    ]
+  },
+  "contact": {
+    "city": "salvador/BA",
+    "country": "Brasil",
+    "phone": "71 99106-7441",
+    "email": "edibertooliveira@aol.com"
+  },
+  "footer": {
+    "response": "Feito com 💜 por Ediberto B.O"
+  },
+  "social": {
+    "linkedin": {
+      "description": "LinkedIn é a maior rede social profissional que existe. Assim como as outras mídias sociais – O diferencial é que, nessa rede social, essas interações podem influenciar a carreira, positiva e negativamente.",
+      "link": "https://www.linkedin.com/in/edibertooliveira/"
+    },
+    "github": {
+      "description": "GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git.",
+      "link": "https://github.com/edibertooliveira"
+    },
+    "twitter": {
+      "description": "Twitter é uma rede social e um servidor para microblogging, que permite aos usuários enviar e receber atualizações pessoais de outros contatos, por meio do website do serviço, por SMS e por softwares específicos de gerenciamento.",
+      "link": "https://twitter.com/devediberto"
+    }
+  },
+  "locale":{
+        "us":"en-US",
+        "br": "pt-BR",
+        "dateOptions": {
+          "weekday": "long",
+          "year": "numeric",
+          "month": "long",
+          "day": "numeric"
+    }
+  }
+}
