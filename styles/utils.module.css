@@ -5,6 +5,12 @@
   justify-content: space-between;
 }
 
+@media (max-width: 580px) {
+  .grid {
+    display: grid;
+  }
+}
+
 .containerXl {
   display: flex;
   width: 100%;
