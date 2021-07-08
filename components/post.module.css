@@ -1,0 +1,30 @@
+.post {
+  width: 100%;
+}
+
+.post h2 {
+  font-size: var(--font-4xl);
+  line-height: var(--line-height-lg);
+  font-weight: 800;
+  margin: var(--spacing-lg) 0 var(--spacing-sm);
+}
+
+.post h3 {
+  font-size: var(--font-3xl);
+  line-height: var(--line-height-md);
+  font-weight: 800;
+  margin: var(--spacing-lg) 0 var(--spacing-sm);
+}
+
+.post h4 {
+  font-size: var(--font-2xl);
+  line-height: var(--line-height-sm);
+  font-weight: 800;
+  margin: var(--spacing-md) 0;
+}
+
+.post p {
+  font-size: var(--font-lg);
+  line-height: var(--line-height-sm);
+  margin: 1rem auto;
+}

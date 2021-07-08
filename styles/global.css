@@ -109,3 +109,19 @@ img {
   max-width: 100%;
   display: block;
 }
+
+pre {
+  margin-bottom: 1rem;
+  padding: 12px;
+  width: auto;
+  max-height: 600px;
+  overflow: auto;
+  font-size: 13px;
+  background-color: var(--black);
+  border-radius: 3px;
+}
+
+ul {
+  list-style: square;
+  margin-left: 2rem;
+}
