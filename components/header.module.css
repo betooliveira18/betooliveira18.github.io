@@ -29,3 +29,19 @@
   align-items: center;
   margin-left: var(--spacing-6);
 }
+
+@media (max-width: 680px) {
+  .displayNone680 {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .navbar {
+    justify-content: center;
+  }
+
+  .displayNone500 {
+    display: none;
+  }
+}

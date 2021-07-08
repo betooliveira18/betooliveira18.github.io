@@ -6,7 +6,7 @@ const Navbar = ({ title, menu }) => {
   return (
     <nav className={styles.navbar}>
       <h1>
-        <Link href="/"><a className={`${utilStyles.headingMd} ${styles.headerTitle}`}>{title}</a></Link>
+        <Link href="/"><a className={`${styles.displayNone500} ${utilStyles.headingMd} ${styles.headerTitle}`}>{title}</a></Link>
       </h1>
       <ul className={utilStyles.listInline}>
         {menu.map((item) => (
@@ -17,7 +17,7 @@ const Navbar = ({ title, menu }) => {
           </li>
         ))}
         <li>
-          <a className={`${utilStyles.btn} ${utilStyles.btnDownload}`} href="/">
+          <a className={`${styles.displayNone680} ${utilStyles.btn} ${utilStyles.btnDownload}`} href="/">
             {" "}
             CV Download
           </a>
